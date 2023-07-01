@@ -1,0 +1,11 @@
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+.terraform/
+.venv/
+dist/
+lambda_package.zip
+__pycache__/
+.DS_Store
+environments/local/.terraform.lock.hcl
+.vscode/settings.json

@@ -83,27 +83,3 @@ class User:
             print(f"Unexpected error: {e}")
             return False
         return True
-
-
-if __name__ == "__main__":
-    user_dict = {
-        "id": "291-65-2923",
-        "name": "Noah",
-        "surname": "Wang",
-        "birthdate": "1996-03-03",
-        "address": "234 Elm St",
-        "car": {
-            "make": "Mercedes-Benz",
-            "model": "C-Class",
-            "year": 2021,
-            "color": "Black",
-            "plate": "VWX234",
-            "mileage": 10000,
-            "fuelType": "Gasoline",
-            "transmission": "Automatic",
-        },
-        "fee": 1100,
-    }
-
-    user = User(user_dict)
-    user.save()

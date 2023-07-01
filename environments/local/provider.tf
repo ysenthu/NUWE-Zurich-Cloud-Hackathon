@@ -1,6 +1,4 @@
 provider "aws" {
-  region  = "eu-central-1"
-  profile = "dev"
   default_tags {
     tags = {
       Name        = "zurch-cloud-hackathon"
